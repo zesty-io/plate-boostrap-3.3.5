@@ -1,4 +1,2 @@
-
-{{include header}}
-
-{{current_view}}
+{{ include("header") }}
+{{ current_view }}
