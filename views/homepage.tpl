@@ -1,17 +1,27 @@
+<div class="container theme-showcase" role="main">
+    {{ include("fixed-nav") }}
+    {{ include("jumbotron") }}
+    {{ include("buttons") }}
+    {{ include("tables") }}
+    {{ include("thumbnails") }}
+    {{ include("labels") }}
+    {{ include("badges") }}
+    {{ include("dropdowns") }}
+    {{ include("navs") }}
+    {{ include("navbars") }}
+    {{ include("alerts") }}
+    {{ include("progress-bars") }}
+    {{ include("list-groups") }}
+    {{ include("panels") }}
+    {{ include("wells") }}
+    {{ include("carousel") }}
+</div> <!-- /container -->
 
-    <header>
-        <div class="header-content"  itemprop="mainContentOfPage">
-            <div class="header-content-inner">
-
-
-			    <h1 itemprop="name headline">{{thispage.title}}</h1>
-                <hr>
-                <p>{{page.content}}</p>
-                <a itemprop="text" target="_blank" href="http://getbootstrap.com/css/" class="btn btn-primary btn-xl page-scroll">Open Bootstrap Docs</a>
-            </div>
-        </div>
-    </header>
-	
-
-	{{include examples}}
-   
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<script src="../../assets/js/docs.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>

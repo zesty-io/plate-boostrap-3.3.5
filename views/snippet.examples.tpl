@@ -1,47 +1,38 @@
 <div class="container" itemprop="mainContentOfPage">
-  
+
     <div class="well">
-	    <h1>Bootstrap Examples</h1>
-	    <p class="lead">Below are some starter examples for using Bootstrap.</p>
-	    
-	    <p>Not all examples are included. Click <a href="http://getbootstrap.com/css/">here</a> for full documentation. It is suggested you create a new homepage in Zesty, and rename and hide (or delete) this page.</p>
-	    <p>Have Fun!</p>
+        <h1>Bootstrap Examples</h1>
+        <p class="lead">Below are some starter examples for using Bootstrap.</p>
+        <p>Not all examples are included. Click <a href="http://getbootstrap.com/css/">here</a> for full documentation. It is suggested you create a new homepage in Zesty, and rename and hide (or delete) this page.</p>
+        <p>Have Fun!</p>
     </div>
-	
+
     (** Simple output of the page title **)
 
-    <h1 itemprop="name headline">{{page.title}}</h1>(** below outputs the content which is inputed in the Zesty Content tab **) <span itemprop="text">{{page.content}}</span>
+    <h1 itemprop="name headline">{{page.title}}</h1>
+
+    (** below outputs the content which is inputed in the Zesty Content tab **)
+    <span itemprop="text">{{page.content}}</span>
 
     <h1>h1. Bootstrap heading</h1>
-
     <h2>h2. Bootstrap heading</h2>
-
     <h3>h3. Bootstrap heading</h3>
-
     <h4>h4. Bootstrap heading</h4>
-
     <h5>h5. Bootstrap heading</h5>
-
     <h6>h6. Bootstrap heading</h6>
 
     <p>{{site.lorem(200)}}</p>
 
-    <p class="lead">{{site.lorem(200)}}</p><small>This line of text is meant to be treated as <abbr title="fine print abbr. example">fine</abbr> print.</small>
+    <p class="lead">{{site.lorem(200)}}</p>
+    <small>This line of text is meant to be treated as <abbr title="fine print abbr. example">fine</abbr> print.</small>
 
     <p class="text-left">Left aligned text.</p>
-
     <p class="text-center">Center aligned text.</p>
-
     <p class="text-right">Right aligned text.</p>
-
     <p class="text-justify">Justified text.</p>
-
     <p class="text-nowrap">No wrap text.</p>
-
     <p class="text-lowercase">Lowercased text.</p>
-
     <p class="text-uppercase">Uppercased text.</p>
-
     <p class="text-capitalize">Capitalized text.</p>
 
     <h2>Addresses</h2>
@@ -72,41 +63,29 @@
 
     <ul>
         <li>Apples</li>
-
         <li>Bananas</li>
-
         <li>Trucks</li>
     </ul>
 
     <ol>
         <li>Trees</li>
-
         <li>Oranges</li>
-
         <li>Cars</li>
     </ol>
 
     <ul class="list-unstyled">
         <li>Trees</li>
-
         <li>Oranges</li>
-
         <li>Cars</li>
-
         <li style="list-style: none; display: inline">
             <ul>
                 <li>Apples</li>
-
                 <li>Bananas</li>
-
                 <li>Trucks</li>
             </ul>
         </li>
-
         <li>Waves</li>
-
         <li>Surfboards</li>
-
         <li>Hang Ten</li>
     </ul>
 
@@ -118,11 +97,8 @@
         <thead>
             <tr>
                 <th>#</th>
-
                 <th>First Name</th>
-
                 <th>Last Name</th>
-
                 <th>Username</th>
             </tr>
         </thead>
@@ -130,31 +106,22 @@
         <tbody>
             <tr>
                 <th scope="row">1</th>
-
                 <td>Mark</td>
-
                 <td>Otto</td>
-
                 <td>@mdo</td>
             </tr>
 
             <tr>
                 <th scope="row">2</th>
-
                 <td>Jacob</td>
-
                 <td>Thornton</td>
-
                 <td>@fat</td>
             </tr>
 
             <tr>
                 <th scope="row">3</th>
-
                 <td>Larry</td>
-
                 <td>the Bird</td>
-
                 <td>@twitter</td>
             </tr>
         </tbody>
@@ -164,43 +131,28 @@
         <thead>
             <tr>
                 <th>#</th>
-
                 <th>First Name</th>
-
                 <th>Last Name</th>
-
                 <th>Username</th>
             </tr>
         </thead>
-
         <tbody>
             <tr>
                 <th scope="row">1</th>
-
                 <td>Mark</td>
-
                 <td>Otto</td>
-
                 <td>@mdo</td>
             </tr>
-
             <tr>
                 <th scope="row">2</th>
-
                 <td>Jacob</td>
-
                 <td>Thornton</td>
-
                 <td>@fat</td>
             </tr>
-
             <tr>
                 <th scope="row">3</th>
-
                 <td>Larry</td>
-
                 <td>the Bird</td>
-
                 <td>@twitter</td>
             </tr>
         </tbody>
@@ -210,11 +162,8 @@
         <thead>
             <tr>
                 <th>#</th>
-
                 <th>First Name</th>
-
                 <th>Last Name</th>
-
                 <th>Username</th>
             </tr>
         </thead>
@@ -463,19 +412,15 @@
             <option>
                 1
             </option>
-
             <option>
                 2
             </option>
-
             <option>
                 3
             </option>
-
             <option>
                 4
             </option>
-
             <option>
                 5
             </option>
@@ -518,55 +463,55 @@
         </div><span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
     </form>
     <hr>
-    
+
     <h1>Buttons</h1>
     <!-- Standard button -->
-	<button type="button" class="btn btn-default">Default</button>
-	
-	<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-	<button type="button" class="btn btn-primary">Primary</button>
-	
-	<!-- Indicates a successful or positive action -->
-	<button type="button" class="btn btn-success">Success</button>
-	
-	<!-- Contextual button for informational alert messages -->
-	<button type="button" class="btn btn-info">Info</button>
-	
-	<!-- Indicates caution should be taken with this action -->
-	<button type="button" class="btn btn-warning">Warning</button>
-	
-	<!-- Indicates a dangerous or potentially negative action -->
-	<button type="button" class="btn btn-danger">Danger</button>
-	
-	<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-	<button type="button" class="btn btn-link">Link</button>
-	<h2>Button Sizes</h2>
-	<p>
-	  <button type="button" class="btn btn-primary btn-lg">Large button</button>
-	  <button type="button" class="btn btn-default btn-lg">Large button</button>
-	</p>
-	<p>
-	  <button type="button" class="btn btn-primary">Default button</button>
-	  <button type="button" class="btn btn-default">Default button</button>
-	</p>
-	<p>
-	  <button type="button" class="btn btn-primary btn-sm">Small button</button>
-	  <button type="button" class="btn btn-default btn-sm">Small button</button>
-	</p>
-	<p>
-	  <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
-	  <button type="button" class="btn btn-default btn-xs">Extra small button</button>
-	</p>
-	<h2>Block Level Example</h2>
-	<div class="well center-block" style="max-width: 400px;">
+    <button type="button" class="btn btn-default">Default</button>
+
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <button type="button" class="btn btn-primary">Primary</button>
+
+    <!-- Indicates a successful or positive action -->
+    <button type="button" class="btn btn-success">Success</button>
+
+    <!-- Contextual button for informational alert messages -->
+    <button type="button" class="btn btn-info">Info</button>
+
+    <!-- Indicates caution should be taken with this action -->
+    <button type="button" class="btn btn-warning">Warning</button>
+
+    <!-- Indicates a dangerous or potentially negative action -->
+    <button type="button" class="btn btn-danger">Danger</button>
+
+    <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+    <button type="button" class="btn btn-link">Link</button>
+    <h2>Button Sizes</h2>
+    <p>
+      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+      <button type="button" class="btn btn-default btn-lg">Large button</button>
+    </p>
+    <p>
+      <button type="button" class="btn btn-primary">Default button</button>
+      <button type="button" class="btn btn-default">Default button</button>
+    </p>
+    <p>
+      <button type="button" class="btn btn-primary btn-sm">Small button</button>
+      <button type="button" class="btn btn-default btn-sm">Small button</button>
+    </p>
+    <p>
+      <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+      <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+    </p>
+    <h2>Block Level Example</h2>
+    <div class="well center-block" style="max-width: 400px;">
       <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
       <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
-	</div>
-	<h2>States</h2>
-	<button type="button" class="btn btn-primary btn-lg active">Primary button</button>
-	<button type="button" class="btn btn-default btn-lg active">Button</button>
-    
-    
+    </div>
+    <h2>States</h2>
+    <button type="button" class="btn btn-primary btn-lg active">Primary button</button>
+    <button type="button" class="btn btn-default btn-lg active">Button</button>
+
+
     (** bootstrap starters **)
 
     <h2>Dropups</h2>
@@ -598,6 +543,5 @@
             <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span> <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
         </div>
     </form>
-  
-    
+
 </div>
