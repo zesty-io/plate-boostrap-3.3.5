@@ -37,4 +37,10 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"/>
 
   </head>
+  <settings>
+    <setting category="developer" name="parsley_2_enabled" label="Parsley 2?" type="checkbox"  options="0,1"><![CDATA[1]]></setting>
+    <setting category="developer" name="parsley_2_enabled_for_dev" label="Parsley 2 For Stage Dev" type="checkbox" options="0,1"><![CDATA[1]]></setting>
+  </settings>
+  
+  
 </plate>
