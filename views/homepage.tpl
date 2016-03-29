@@ -1,20 +1,20 @@
 <div class="container theme-showcase" role="main">
-    {{ include("fixed-nav") }}
-    {{ include("jumbotron") }}
-    {{ include("buttons") }}
-    {{ include("tables") }}
-    {{ include("thumbnails") }}
-    {{ include("labels") }}
-    {{ include("badges") }}
-    {{ include("dropdowns") }}
-    {{ include("navs") }}
-    {{ include("navbars") }}
-    {{ include("alerts") }}
-    {{ include("progress-bars") }}
-    {{ include("list-groups") }}
-    {{ include("panels") }}
-    {{ include("wells") }}
-    {{ include("carousel") }}
+    {{ include fixed-nav }}
+    {{ include jumbotron }}
+    {{ include buttons }}
+    {{ include tables }}
+    {{ include thumbnails }}
+    {{ include labels }}
+    {{ include badges }}
+    {{ include dropdowns }}
+    {{ include navs }}
+    {{ include navbars }}
+    {{ include alerts }}
+    {{ include progress-bars }}
+    {{ include list-groups }}
+    {{ include panels }}
+    {{ include wells }}
+    {{ include carousel }}
 </div> <!-- /container -->
 
 <!-- Bootstrap core JavaScript
