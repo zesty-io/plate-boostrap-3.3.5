@@ -19,11 +19,11 @@
 
   <clippings>
     <text name="site_name" name_friendly="Site Name" required="1">
-      <![CDATA[Edit Site Name in Content Clippings]]>
+      <![CDATA[Edit Site Name in Globals]]>
     </text>
     <images name="logo" name_friendly="Site Logo" limit="1" />
     <text name="footer_text" name_friendly="Footer Text">
-      <![CDATA[Footer text can be updated in Content Clippings]]>
+      <![CDATA[Footer text can be updated in Globalss]]>
     </text>
   </clippings>
 
